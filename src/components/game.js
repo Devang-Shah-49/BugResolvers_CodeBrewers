@@ -406,7 +406,7 @@
         });
 
         // Attach boundcode
-        swiftcode.boundCode = _.map(codemap, function(piece) { return piece.char; }).join('');
+        bugResolvers.boundCode = _.map(codemap, function(piece) { return piece.char; }).join('');
 
         // Set all code characters to untyped
         $gamecode.find('.code-char').addClass('untyped');

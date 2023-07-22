@@ -34,7 +34,7 @@
         }
     };
 
-    swiftcode.viewModel = viewModel;
+    bugResolvers.viewModel = viewModel;
     ko.applyBindings(viewModel);
     viewModel.addProject();
 })();

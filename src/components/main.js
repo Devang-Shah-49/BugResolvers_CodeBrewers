@@ -1,4 +1,4 @@
-var swiftcode = {};
+var bugResolvers = {};
 
 var getQualifiedUrl = function() {
     return location.protocol + '//' + location.hostname +
